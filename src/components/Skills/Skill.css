@@ -1,0 +1,172 @@
+.skillbar{
+ width:100%;
+    background: #e6ecf3;
+    height: 10px;
+    z-index: -1;
+    border-radius: 100px;
+
+
+
+}
+.skill-fill{
+    background-color: #d92cf9;
+   color:white;
+  height: 10px;
+  width:100%;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+
+}
+.skill-percent{
+font-size: 10px;
+}
+.html{
+    animation: html 2s;
+    width:80%
+}
+
+.java{
+    animation: java 2s;
+    width:70%
+}
+.springboot{
+    animation:springboot 2s;
+    width:50%
+}
+.github{
+    animation: github 2s;
+    width:50%
+}
+.css{
+    animation:css 2s;
+    width:70%
+}
+.javascript{
+    animation:javascript 2s;
+    width:80%
+}
+.reactjs{
+    animation:reactjs 2s;
+    width:75%
+}
+.bootstrap{
+    animation:bootstrap 2s;
+    width:75%
+}
+@keyframes java{
+    from{
+        width:0%
+    }
+    to{
+        width:70%
+    }
+}
+@keyframes html{
+    from{
+        width:0%
+    }
+    to{
+        width:80%
+    }
+}
+
+@keyframes css{
+    from{
+        width:0%
+    }
+    to{
+        width:80%
+    }
+
+}
+
+@keyframes javascript{
+    from{
+        width:0%
+    }
+    to{
+        width:80%
+    }
+}
+
+@keyframes reactjs{
+    from{
+        width:0%
+    }
+    to{
+        width:75%
+    }
+}
+
+@keyframes bootstrap{
+    from{
+        width:0%
+    }
+    to{
+        width:70%
+    }
+}
+
+@keyframes springboot{
+    from{
+        width:0%
+    }
+    to{
+        width:50%
+    }
+}
+
+@keyframes github{
+    from{
+        width:0%
+    }
+    to{
+        width:50%
+    }
+}
+.skill{
+    width:100%;
+    /* padding-left:150px; */
+}
+.skill-header{
+    text-align: center;
+    color: rgb(67, 72, 92);
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:200px;
+    padding:15px 9%;
+    /* padding-left: 100px; */
+    
+}
+hr{
+    margin-bottom: 50px;
+}
+.skill-language{
+    color: rgb(67, 72, 92);
+    text-transform: uppercase;
+    font-size: 20px;
+    margin:20px 0px;
+}
+@media (max-width:768px) {
+    .skill-container{
+        display: block;
+        /* padding-left: 50px; */
+    }
+    .skill{
+        /* padding-left:60px ; */
+    }
+    .skill-left{
+        margin-bottom: 100px;
+    }
+}
+.skill-left{
+    /* flex:1 */
+}

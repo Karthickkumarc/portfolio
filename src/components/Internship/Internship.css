@@ -1,0 +1,94 @@
+.internship{
+    width:100%;
+    /* margin-left: 0px; */
+}
+.internship-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(67, 72, 92);
+    margin-bottom: 70px;
+}
+.intership-left{
+    margin-left: 20px;
+    flex-basis: 20%
+    
+}
+i{
+    color: #d92cf9;
+    
+}
+.intership-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.intership-companyname{ color: rgb(67, 72, 92);font-size: 20px;}
+.intership-date{
+    color: rgb(67, 72, 92);
+}
+.internship-learning{
+    width:400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    text-transform: capitalize;
+}
+.internship-right{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intership-companyname{
+    text-align: center;
+}
+.internship-location{
+    text-align: center;
+}
+.internship-right span{
+    /* position: absolute; */
+    /* content:""; */
+    width:5px;
+    height:20px;
+    background-color: black;
+
+}
+.hr2{
+    margin-top: -13px;
+    margin-left: 7.5px;
+    border: 1px solid  #b2c1ce;
+    width:0.5px;
+    height: 150px;
+    background-color: #b2c1ce;
+   
+ }
+
+
+ @media(max-width:768px){
+    .intership-container{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .hr2{
+      display: none;
+       
+     }
+     #circle{
+        display: none;
+     }
+     .intership-left{
+        margin-left: 0px;
+    }
+    
+ }

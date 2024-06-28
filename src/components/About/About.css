@@ -1,0 +1,118 @@
+.about{
+  width:100%;
+  /* height:auto; */
+}
+.about-content{
+    margin-top:50px;
+   display: flex;
+   justify-content: space-around;
+   /* align-items: center; */
+   /* gap:80px */
+  
+    /* margin-left: 20px; */
+    
+}
+.about-header{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgb(67, 72, 92);
+}
+.about-left-img{
+    width:300px;
+    height:400px;
+    
+    border-radius: 15px;
+  /* opacity: 0.6; */
+    flex:1;
+    animation:  fadeIn 3s;
+    /* transition: all 0.5s; */
+    
+
+}
+.about-left-img:hover{
+    /* opacity: 1; */
+}
+.about-right{
+    /* flex-basis: 50%; */
+     min-width: 400px;
+     /* min-height:400px */
+}
+.about-left{
+    flex-basis: 50%;
+    min-width: 300px;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+     /* gap:30px; */
+     /* margin-left: 30px; */
+    
+     /* justify-content: center; */
+    
+     /* padding-left:180px; */
+   
+    
+  
+}
+.about-left .about-left-header{
+    color: rgb(67, 72, 92);
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+}
+
+
+.about-left .about-left-content{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0px 43px;
+    color: rgb(153, 159, 179);
+    border-bottom: 1px solid rgb(153, 159, 179);
+}
+.about-contact{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap:50px;
+}
+.about-contact h1{
+    color: rgb(67, 72, 92);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.about-contact p{
+    color: rgb(153, 159, 179);
+    text-transform: capitalize;
+}
+@media (max-width:768px){
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-left{
+        /* padding:30px */
+    }
+    .about-left-img{
+      width:70%;
+    
+    }
+}
+@media (max-width:900px){
+    .about-left-img{
+        width:70%;
+        height: auto;
+      }
+      .about-left{
+        padding-left: 5px;
+      }
+      .about-content{
+        padding:20px
+      }
+      .about-left-img{
+        padding-left:80px;
+        border-radius: 15px;
+      }
+}

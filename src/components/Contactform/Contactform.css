@@ -1,0 +1,140 @@
+.contactform{
+    width:100%;
+  
+}
+.contactform-header{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    color: rgb(67, 72, 92);
+    /* padding-right: 12%; */
+    text-transform: capitalize;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 100px; */
+   /* display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); */
+   justify-content: center;
+   align-items: center;
+    gap:80px;
+    padding:15px 9%;
+    /* margin-left: 10px; */
+    /* text-align: center; */
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+.contact-name{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+   
+}
+.contact-name input{
+    padding: 8px 20px;
+    /* border:none; */
+    border: 1px solid #d92cf9;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.contact-name input:hover{
+    border: 1px solid #d92cf9; 
+
+}
+.contact-name input:active{
+    border: 1px solid #d92cf9; 
+    
+}
+.contact-message input{
+      width:80%;
+      padding: 8px 20px;
+      height:40px;
+     
+    margin-bottom: 50px;
+    border-radius: 8px;
+    border: 1px solid #d92cf9;
+}
+.contact-message input:hover{
+    border: 1px solid #d92cf9;
+}
+#message{
+   width:80%;
+   /* border: none; */
+   border: 1px solid #d92cf9;
+   padding: 8px 20px;
+}
+#message:hover{
+    border: 1px solid #d92cf9;
+}
+.contact-button{
+    margin:20px 0px 20px 50px;
+    padding:10px 23%;
+    border:none;
+    background-color: #d92cf9;
+    border-radius: 8px;
+    cursor:pointer;
+    color:white;
+    font-weight:500;
+    transition:0.5s;
+    text-align: center;
+}
+.contact-button:hover{
+    scale:1.1
+}
+.contact-right{
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+  /* justify-content: start; */
+  gap:20px;
+  color: rgb(67, 72, 92);
+
+}
+.contact-right-phone-details p{
+    
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.contact-right h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    color:none;
+}
+@media(max-width:768px)
+{
+    .contact-container{
+        display: block;
+       
+    }
+    .contact-name{
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+    }
+    .contactform-header{
+    /* padding-right: 12%;} */
+    }
+}
+.contact-right-email-details {
+    text-align: center;
+    display: flex;
+    
+
+}.contact-right-email-details  p{
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-left: 12px;
+}
+.contact-right-name-details h1{
+    text-transform: uppercase;
+}
+.contact-right-phone-details{
+    display: flex;
+}
